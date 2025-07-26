@@ -24,7 +24,7 @@ role: Research Scientist (PostDoc)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Machine Vision Metrology (MVM), Karlsruhe Institute of Technology (KIT)
+  - name: "Machine Vision Metrology (MVM)<br>Institute of Photogrammetry and Remote Sensing (IPF)<br>Karlsruhe Institute of Technology (KIT)"
     url: https://www.linkedin.com/company/machine-vision-metrology-kit
 
 # Social network links
@@ -48,37 +48,37 @@ interests:
   - Music
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Dr.-Ing. Machine Vision Metrology
+    institution: Karlsruhe Institute of Technology
+    date_start: 2022-01-01
+    date_end: 2025-07-03
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on "Efficient Estimation and Exploitation of Predictive Uncertainties in Deep Learning-based Machine Vision". Supervised by Prof. Dr.-Ing. Markus Ulrich.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: M.Sc. Geomatics (Computer Vision, GIS)
+    institution: Karlsruhe Institute of Technology
+    date_start: 2018-10-01
+    date_end: 2020-08-24
+    # summary: |
+    #   GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+    #   Courses included:
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: B.Sc. Geomatics
+    institution: Karlsruhe Institute of Technology
+    date_start: 2015-10-01
+    date_end: 2018-08-06
+    # summary: |
+    #   GPA: 3.4/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   Courses included:
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -177,6 +177,10 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Hi there, I'm Steven!
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I’m an AI engineer, researcher, and general enthusiast for all things tech. I spend most of my time teaching neural networks to see the world (and occasionally to doubt themselves via uncertainty quantification), or collaborating with and supervising students on ambitious projects.
+
+My research lives at the intersection of computer vision and metrology, with a focus on making AI systems more reliable, interpretable, and ultimately safer — across domains like remote sensing, robotics, medical imaging, autonomous driving, and industrial inspection.
+
+I'm passionate about bridging the gap between cutting-edge research and real-world impact. Whether it's debugging a stubborn model, guiding a thesis to the finish line, or exploring new ideas over coffee, I genuinely enjoy working with others to push the boundaries of what machines can do for us.
