@@ -183,4 +183,4 @@ I’m an AI engineer, researcher, and general enthusiast for all things tech. I 
 
 My research lives at the intersection of computer vision and metrology, with a focus on making AI systems more reliable, interpretable, and ultimately safer — across domains like remote sensing, robotics, medical imaging, autonomous driving, and industrial inspection.
 
-I'm passionate about bridging the gap between cutting-edge research and real-world impact. Whether it's debugging a stubborn model, guiding a thesis to the finish line, or exploring new ideas over coffee, I genuinely enjoy working with others to push the boundaries of what machines can do for us.
+I'm passionate about bridging the gap between cutting-edge research and real-world impact. Whether it's debugging a stubborn model, guiding a thesis to the finish line, or exploring new ideas over lunch, I genuinely enjoy working with others to push the boundaries of what machines can do for us.
