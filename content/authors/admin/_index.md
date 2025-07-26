@@ -24,7 +24,7 @@ role: Research Scientist (PostDoc)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: "Machine Vision Metrology (MVM)<br>Institute of Photogrammetry and Remote Sensing (IPF)<br>Karlsruhe Institute of Technology (KIT)"
+  - name: "Karlsruhe Institute of Technology (KIT)"
     url: https://www.linkedin.com/company/machine-vision-metrology-kit
 
 # Social network links
@@ -57,7 +57,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: M.Sc. Geomatics (Computer Vision, GIS)
+  - area: M.Sc. Geomatics
     institution: Karlsruhe Institute of Technology
     date_start: 2018-10-01
     date_end: 2020-08-24
