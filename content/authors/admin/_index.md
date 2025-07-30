@@ -30,9 +30,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:steven.landgraf@protonmail.com'
-    label: E-mail Me
+  # - icon: at-symbol
+  #   url: 'mailto:steven.landgraf@protonmail.com'
+  #   label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/steven-landgraf-1a781321a/
   - icon: academicons/google-scholar
