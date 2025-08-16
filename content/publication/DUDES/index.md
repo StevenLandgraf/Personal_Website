@@ -1,16 +1,16 @@
 ---
-title: 'Efficient Multi-task Uncertainties for Joint Semantic Segmentation and Monocular Depth Estimation'
+title: 'Deep Uncertainty Distillation using Ensembles for Semantic Segmentation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
+  - Kira Wursthorn
   - Markus Hillemann
-  - Theodor Kapler
   - Markus Ulrich
 
-date: '2025-04-24T00:00:00Z'
+date: '2024-03-25T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -19,13 +19,13 @@ doi: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In DAGM German Conference on Pattern Recognition
-publication_short: In GCPR
+publication: In PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science
+publication_short: In PFG
 
-abstract: Quantifying the predictive uncertainty emerged as a possible solution to common challenges like overconfidence, lack of explainability, and robustness of deep neural networks, albeit one that is often computationally expensive. Many real-world applications are multi-modal in nature and hence benefit from multi-task learning. In autonomous driving or robotics, for example, the joint solution of semantic segmentation and monocular depth estimation has proven to be valuable. To this end, we introduce EMUFormer, a novel student-teacher distillation approach for efficient multi-task uncertainties in the context of joint semantic segmentation and monocular depth estimation. By leveraging the predictive uncertainties of the teacher, EMUFormer achieves new state-of-the-art results on Cityscapes and NYUv2 and additionally estimates high-quality predictive uncertainties for both tasks that are comparable or superior to a Deep Ensemble despite being an order of magnitude more efficient.
+abstract: The intersection of deep learning and photogrammetry unveils a critical need for balancing the power of deep neural networks with interpretability and trustworthiness, especially for safety-critical application like autonomous driving, medical imaging, or machine vision tasks with high demands on reliability. Quantifying the predictive uncertainty is a promising endeavour to open up the use of deep neural networks for such applications. Unfortunately, most current available methods are computationally expensive. In this work, we present a novel approach for efficient and reliable uncertainty estimation for semantic segmentation, which we call Deep Uncertainty Distillation using Ensembles for Segmentation (DUDES). DUDES applies student-teacher distillation with a Deep Ensemble to accurately approximate predictive uncertainties with a single forward pass while maintaining simplicity and adaptability. Experimentally, DUDES accurately captures predictive uncertainties without sacrificing performance on the segmentation task and indicates impressive capabilities of highlighting wrongly classified pixels and out-of-domain samples through high uncertainties on the Cityscapes and Pascal VOC 2012 dataset. With DUDES, we manage to simultaneously simplify and outperform previous work on Deep-Ensemble-based Uncertainty Distillation.
 
 
 # Summary. An optional shortened abstract.
@@ -34,7 +34,6 @@ abstract: Quantifying the predictive uncertainty emerged as a possible solution 
 tags:
   - Deep Learning
   - Semantic Segmentation
-  - Monocular Depth Estimation
   - Uncertainty Quantification
   - Vision Transformer
 
@@ -42,14 +41,14 @@ tags:
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: arXiv
-#   url: 
-url_pdf: https://link.springer.com/chapter/10.1007/978-3-031-85187-2_22
-# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+links:
+- name: Project Website
+  url: https://stevenlandgraf.github.io/DUDES_Website/
+url_pdf: https://link.springer.com/article/10.1007/s41064-024-00280-4
+url_code: https://github.com/StevenLandgraf/DUDES
 # url_dataset: '#'
 # url_poster: '#'
-url_project: https://stevenlandgraf.github.io/EMUFormer_Website/
+# url_project: ''
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'
