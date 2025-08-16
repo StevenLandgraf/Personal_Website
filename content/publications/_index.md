@@ -1,13 +1,6 @@
 ---
-title: Recent Publications
+title: All First Author Publications
 cms_exclude: true
 url: publications
-
-# View.
-view: card # compact
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+type: widget_page
 ---
