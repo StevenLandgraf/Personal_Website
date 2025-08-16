@@ -61,6 +61,7 @@ sections:
       filters:
         folders:
           - publication
+        featured_only: true
         exclude_featured: false
     design:
       view: article-grid # compact
