@@ -4,7 +4,7 @@ cms_exclude: true
 url: papers
 
 # View.
-view: article-grid
+view: article-grid # compact
 
 # Optional header image (relative to `static/media/` folder).
 banner:
