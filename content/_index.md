@@ -56,12 +56,12 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Recent Publications
       text: ""
       filters:
         folders:
           - publication
-        exclude_featured: true
+        exclude_featured: false
     design:
       view: article-grid # compact
   # - block: collection
