@@ -1,5 +1,5 @@
 ---
-title: 'EMUFormer'
+title: 'Efficient Multi-task Uncertainties for Joint Semantic Segmentation and Monocular Depth Estimation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -10,11 +10,11 @@ authors:
   - Theodor Kapler
   - Markus Ulrich
 
-date: '2025-08-16T00:00:00Z'
+date: '2025-04-24T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+# publishDate: '2025-04-24T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -22,16 +22,21 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In DAGM German Conference on Pattern Recognition
+publication_short: In GCPR
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Quantifying the predictive uncertainty emerged as a possible solution to common challenges like overconfidence, lack of explainability, and robustness of deep neural networks, albeit one that is often computationally expensive. Many real-world applications are multi-modal in nature and hence benefit from multi-task learning. In autonomous driving or robotics, for example, the joint solution of semantic segmentation and monocular depth estimation has proven to be valuable. To this end, we introduce EMUFormer, a novel student-teacher distillation approach for efficient multi-task uncertainties in the context of joint semantic segmentation and monocular depth estimation. By leveraging the predictive uncertainties of the teacher, EMUFormer achieves new state-of-the-art results on Cityscapes and NYUv2 and additionally estimates high-quality predictive uncertainties for both tasks that are comparable or superior to a Deep Ensemble despite being an order of magnitude more efficient.
+
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Deep Learning
+  - Semantic Segmentation
+  - Monocular Depth Estimation
+  - Uncertainty Quantification
+  - Vision Transformer
 
 # Display this page in the Featured widget?
 featured: true
