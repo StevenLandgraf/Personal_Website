@@ -61,10 +61,10 @@ sections:
       filters:
         folders:
           - publication
-        # featured_only: true
         exclude_featured: false
     design:
       view: article-grid # compact
+      columns: 3
   # - block: collection
   #   id: talks
   #   content:
