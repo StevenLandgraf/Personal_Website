@@ -1,7 +1,7 @@
 ---
-title: Featured Publications
+title: Recent Publications
 cms_exclude: true
-url: papers
+url: publications
 
 # View.
 view: card # compact
