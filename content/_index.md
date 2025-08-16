@@ -62,7 +62,7 @@ sections:
         folders:
           - publication
         exclude_featured: false
-      count: 6
+      count: 4
     design:
       view: article-grid # compact
   # - block: collection
