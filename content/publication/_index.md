@@ -4,7 +4,7 @@ cms_exclude: true
 url: papers
 
 # View.
-view: showcase # compact
+view: card # compact
 
 # Optional header image (relative to `static/media/` folder).
 banner:
