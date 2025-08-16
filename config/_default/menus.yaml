@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Featured Publications
     url: /#papers
-    weight: 10
+    weight: 11
   # - name: Talks
   #   url: /#talks
   #   weight: 12
