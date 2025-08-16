@@ -61,9 +61,9 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
     design:
-      view: showcase # compact
+      view: article-grid # compact
   # - block: collection
   #   id: talks
   #   content:
