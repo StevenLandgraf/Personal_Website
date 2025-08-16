@@ -1,5 +1,5 @@
 ---
-title: Selected Publications
+title: Featured Publications
 cms_exclude: true
 url: papers
 
