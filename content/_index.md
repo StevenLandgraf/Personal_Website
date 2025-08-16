@@ -60,7 +60,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - publications
         exclude_featured: false
       count: 4
     design:
