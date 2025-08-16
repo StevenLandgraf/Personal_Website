@@ -49,7 +49,7 @@ url_pdf: https://link.springer.com/chapter/10.1007/978-3-031-85187-2_22
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
-url_project: 'https://stevenlandgraf.github.io/EMUFormer_Website/'
+url_project: https://stevenlandgraf.github.io/EMUFormer_Website/
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'

@@ -1,7 +1,7 @@
 ---
 title: Featured Publications
 cms_exclude: true
-url: publication
+url: papers
 
 # View.
 view: compact
