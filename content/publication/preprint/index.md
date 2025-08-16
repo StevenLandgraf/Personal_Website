@@ -1,5 +1,5 @@
 ---
-title: "Efficient Multi-task Uncertainties for Joint Semantic Segmentation and Monocular Depth Estimation"
+title: "An example preprint / working paper"
 authors:
 - admin
 - Markus Hillemann
