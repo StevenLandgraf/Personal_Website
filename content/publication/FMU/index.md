@@ -1,16 +1,15 @@
 ---
-title: 'Deep Uncertainty Distillation using Ensembles for Semantic Segmentation'
+title: 'A Critical Synthesis of Uncertainty Quantification and Foundation Models in Monocular Depth Estimation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Kira Wursthorn
-  - Markus Hillemann
+  - Rongjun Qin
   - Markus Ulrich
 
-date: '2024-03-25T00:00:00Z'
+date: '2025-01-14T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -19,20 +18,20 @@ doi: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article-journal']
+publication_types: ['article']
 
 # Publication name and optional abbreviated publication name.
-publication: In PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science
-publication_short: In PFG
+publication: arXiv
 
-abstract: The intersection of deep learning and photogrammetry unveils a critical need for balancing the power of deep neural networks with interpretability and trustworthiness, especially for safety-critical application like autonomous driving, medical imaging, or machine vision tasks with high demands on reliability. Quantifying the predictive uncertainty is a promising endeavour to open up the use of deep neural networks for such applications. Unfortunately, most current available methods are computationally expensive. In this work, we present a novel approach for efficient and reliable uncertainty estimation for semantic segmentation, which we call Deep Uncertainty Distillation using Ensembles for Segmentation (DUDES). DUDES applies student-teacher distillation with a Deep Ensemble to accurately approximate predictive uncertainties with a single forward pass while maintaining simplicity and adaptability. Experimentally, DUDES accurately captures predictive uncertainties without sacrificing performance on the segmentation task and indicates impressive capabilities of highlighting wrongly classified pixels and out-of-domain samples through high uncertainties on the Cityscapes and Pascal VOC 2012 dataset. With DUDES, we manage to simultaneously simplify and outperform previous work on Deep-Ensemble-based Uncertainty Distillation.
+abstract: While recent foundation models have enabled significant breakthroughs in monocular depth estimation, a clear path towards safe and reliable deployment in the real-world remains elusive. Metric depth estimation, which involves predicting absolute distances, poses particular challenges, as even the most advanced foundation models remain prone to critical errors. Since quantifying the uncertainty has emerged as a promising endeavor to address these limitations and enable trustworthy deployment, we fuse five different uncertainty quantification methods with the current state-of-the-art DepthAnythingV2 foundation model. To cover a wide range of metric depth domains, we evaluate their performance on four diverse datasets. Our findings identify fine-tuning with the Gaussian Negative Log-Likelihood Loss (GNLL) as a particularly promising approach, offering reliable uncertainty estimates while maintaining predictive performance and computational efficiency on par with the baseline, encompassing both training and inference time. By fusing uncertainty quantification and foundation models within the context of monocular depth estimation, this paper lays a critical foundation for future research aimed at improving not only model performance but also its explainability. Extending this critical synthesis of uncertainty quantification and foundation models into other crucial tasks, such as semantic segmentation and pose estimation, presents exciting opportunities for safer and more reliable machine vision systems.
+
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
   - Deep Learning
-  - Semantic Segmentation
+  - Monocular Depth Estimation
   - Uncertainty Quantification
   - Vision Transformer
 
@@ -42,12 +41,12 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: Project Website
-  url: https://stevenlandgraf.github.io/DUDES_Website/
-url_pdf: https://link.springer.com/article/10.1007/s41064-024-00280-4
-url_code: https://github.com/StevenLandgraf/DUDES
+  url: https://stevenlandgraf.github.io/FoundationDepthUQ_Website/
+url_pdf: https://arxiv.org/abs/2501.08188
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
-# url_project: ''
+# url_project: https://stevenlandgraf.github.io/EMUFormer_Website/
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'

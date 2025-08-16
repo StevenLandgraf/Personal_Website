@@ -1,16 +1,16 @@
 ---
-title: 'Deep Uncertainty Distillation using Ensembles for Semantic Segmentation'
+title: 'Uncertainty-aware Cross-Entropy for Semantic Segmentation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Kira Wursthorn
   - Markus Hillemann
+  - Kira Wursthorn
   - Markus Ulrich
 
-date: '2024-03-25T00:00:00Z'
+date: '2024-06-10T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -19,13 +19,13 @@ doi: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article-journal']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science
-publication_short: In PFG
+publication: in ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences
 
-abstract: The intersection of deep learning and photogrammetry unveils a critical need for balancing the power of deep neural networks with interpretability and trustworthiness, especially for safety-critical application like autonomous driving, medical imaging, or machine vision tasks with high demands on reliability. Quantifying the predictive uncertainty is a promising endeavour to open up the use of deep neural networks for such applications. Unfortunately, most current available methods are computationally expensive. In this work, we present a novel approach for efficient and reliable uncertainty estimation for semantic segmentation, which we call Deep Uncertainty Distillation using Ensembles for Segmentation (DUDES). DUDES applies student-teacher distillation with a Deep Ensemble to accurately approximate predictive uncertainties with a single forward pass while maintaining simplicity and adaptability. Experimentally, DUDES accurately captures predictive uncertainties without sacrificing performance on the segmentation task and indicates impressive capabilities of highlighting wrongly classified pixels and out-of-domain samples through high uncertainties on the Cityscapes and Pascal VOC 2012 dataset. With DUDES, we manage to simultaneously simplify and outperform previous work on Deep-Ensemble-based Uncertainty Distillation.
+abstract: Deep neural networks have shown exceptional performance in various tasks, but their lack of robustness, reliability, and tendency to be overconfident pose challenges for their deployment in safety-critical applications like autonomous driving. In this regard, quantifying the uncertainty inherent to a model's prediction is a promising endeavour to address these shortcomings. In this work, we present a novel Uncertainty-aware Cross-Entropy loss (U-CE) that incorporates dynamic predictive uncertainties into the training process by pixel-wise weighting of the well-known cross-entropy loss (CE). Through extensive experimentation, we demonstrate the superiority of U-CE over regular CE training on two benchmark datasets, Cityscapes and ACDC, using two common backbone architectures, ResNet-18 and ResNet-101. With U-CE, we manage to train models that not only improve their segmentation performance but also provide meaningful uncertainties after training. Consequently, we contribute to the development of more robust and reliable segmentation models, ultimately advancing the state-of-the-art in safety-critical applications and beyond.
+
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -34,7 +34,6 @@ tags:
   - Deep Learning
   - Semantic Segmentation
   - Uncertainty Quantification
-  - Vision Transformer
 
 # Display this page in the Featured widget?
 featured: true
@@ -42,12 +41,12 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: Project Website
-  url: https://stevenlandgraf.github.io/DUDES_Website/
-url_pdf: https://link.springer.com/article/10.1007/s41064-024-00280-4
-url_code: https://github.com/StevenLandgraf/DUDES
+  url: https://stevenlandgraf.github.io/U-CE_Website/
+url_pdf: https://isprs-annals.copernicus.org/articles/X-2-2024/129/2024/
+url_code: https://github.com/StevenLandgraf/U-CE
 # url_dataset: '#'
 # url_poster: '#'
-# url_project: ''
+# url_project: https://stevenlandgraf.github.io/EMUFormer_Website/
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'

@@ -1,16 +1,15 @@
 ---
-title: 'Deep Uncertainty Distillation using Ensembles for Semantic Segmentation'
+title: 'Rethinking Semi-supervised Segmentation Beyond Accuracy: Reliability and Robustness'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Kira Wursthorn
   - Markus Hillemann
   - Markus Ulrich
 
-date: '2024-03-25T00:00:00Z'
+date: '2025-06-06T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -19,13 +18,13 @@ doi: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article-journal']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science
-publication_short: In PFG
+publication: accepted for DAGM German Conference on Pattern Recognition
 
-abstract: The intersection of deep learning and photogrammetry unveils a critical need for balancing the power of deep neural networks with interpretability and trustworthiness, especially for safety-critical application like autonomous driving, medical imaging, or machine vision tasks with high demands on reliability. Quantifying the predictive uncertainty is a promising endeavour to open up the use of deep neural networks for such applications. Unfortunately, most current available methods are computationally expensive. In this work, we present a novel approach for efficient and reliable uncertainty estimation for semantic segmentation, which we call Deep Uncertainty Distillation using Ensembles for Segmentation (DUDES). DUDES applies student-teacher distillation with a Deep Ensemble to accurately approximate predictive uncertainties with a single forward pass while maintaining simplicity and adaptability. Experimentally, DUDES accurately captures predictive uncertainties without sacrificing performance on the segmentation task and indicates impressive capabilities of highlighting wrongly classified pixels and out-of-domain samples through high uncertainties on the Cityscapes and Pascal VOC 2012 dataset. With DUDES, we manage to simultaneously simplify and outperform previous work on Deep-Ensemble-based Uncertainty Distillation.
+abstract: Semantic segmentation is critical for scene understanding but demands costly pixel-wise annotations, attracting increasing attention to semi-supervised approaches to leverage abundant unlabeled data. While semi-supervised segmentation is often promoted as a path toward scalable, real-world deployment, it is astonishing that current evaluation protocols exclusively focus on segmentation accuracy, entirely overlooking reliability and robustness. These qualities, which ensure consistent performance under diverse conditions (robustness) and well-calibrated model confidences as well as meaningful uncertainties (reliability), are essential for safety-critical applications like autonomous driving, where models must handle unpredictable environments and avoid sudden failures at all costs. To address this gap, we introduce the Reliable Segmentation Score (RSS), a novel metric that combines predictive accuracy, calibration, and uncertainty quality measures via a harmonic mean. RSS penalizes deficiencies in any of its components, providing an easy and intuitive way of holistically judging segmentation models. Comprehensive evaluations of UniMatchV2 against its predecessor and a supervised baseline show that semi-supervised methods often trade reliability for accuracy. While out-of-domain evaluations demonstrate UniMatchV2's robustness, they further expose persistent reliability shortcomings. We advocate for a shift in evaluation protocols toward more holistic metrics like RSS to better align semi-supervised learning research with real-world deployment needs.
+
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -33,6 +32,8 @@ abstract: The intersection of deep learning and photogrammetry unveils a critica
 tags:
   - Deep Learning
   - Semantic Segmentation
+  - Semi-supervised Learning
+
   - Uncertainty Quantification
   - Vision Transformer
 
@@ -42,12 +43,12 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: Project Website
-  url: https://stevenlandgraf.github.io/DUDES_Website/
-url_pdf: https://link.springer.com/article/10.1007/s41064-024-00280-4
-url_code: https://github.com/StevenLandgraf/DUDES
+  url: https://stevenlandgraf.github.io/Rethinking_Semi-supervised_Segmentation_Website/
+url_pdf: https://arxiv.org/pdf/2506.05917
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
-# url_project: ''
+# url_project: https://stevenlandgraf.github.io/EMUFormer_Website/
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'
