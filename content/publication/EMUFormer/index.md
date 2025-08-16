@@ -9,7 +9,7 @@ date: "2025-08-16T15:30:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024"
+publishDate: "2024-09-10T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
